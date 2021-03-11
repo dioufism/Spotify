@@ -24,6 +24,7 @@
 		DAABC97E25F9A03900076F9A /* PlayerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAABC97D25F9A03900076F9A /* PlayerViewController.swift */; };
 		DAABC98325F9A04D00076F9A /* PlaylistViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAABC98225F9A04D00076F9A /* PlaylistViewController.swift */; };
 		DAABC98825F9A05A00076F9A /* SearchResultViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAABC98725F9A05A00076F9A /* SearchResultViewController.swift */; };
+		DAABC9C225F9D16900076F9A /* AuthManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAABC9C125F9D16900076F9A /* AuthManager.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -67,6 +68,7 @@
 		DAABC97D25F9A03900076F9A /* PlayerViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlayerViewController.swift; sourceTree = "<group>"; };
 		DAABC98225F9A04D00076F9A /* PlaylistViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlaylistViewController.swift; sourceTree = "<group>"; };
 		DAABC98725F9A05A00076F9A /* SearchResultViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchResultViewController.swift; sourceTree = "<group>"; };
+		DAABC9C125F9D16900076F9A /* AuthManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthManager.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -118,9 +120,9 @@
 			isa = PBXGroup;
 			children = (
 				DA26050125F997BA0038E87A /* Ressources */,
-				DA26050025F997B10038E87A /* Manager */,
+				DAABC9C925F9D16F00076F9A /* Models */,
+				DAABC9C025F9D15A00076F9A /* Manager */,
 				DA2604FF25F997A70038E87A /* ViewModels */,
-				DA2604FE25F9979F0038E87A /* Models */,
 				DA2604FD25F9979A0038E87A /* View */,
 				DA2604FC25F9978F0038E87A /* Controllers */,
 				DA2604D725F9977F0038E87A /* Info.plist */,
@@ -163,25 +165,11 @@
 			path = View;
 			sourceTree = "<group>";
 		};
-		DA2604FE25F9979F0038E87A /* Models */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = Models;
-			sourceTree = "<group>";
-		};
 		DA2604FF25F997A70038E87A /* ViewModels */ = {
 			isa = PBXGroup;
 			children = (
 			);
 			path = ViewModels;
-			sourceTree = "<group>";
-		};
-		DA26050025F997B10038E87A /* Manager */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = Manager;
 			sourceTree = "<group>";
 		};
 		DA26050125F997BA0038E87A /* Ressources */ = {
@@ -217,6 +205,21 @@
 				DAABC98725F9A05A00076F9A /* SearchResultViewController.swift */,
 			);
 			path = Others;
+			sourceTree = "<group>";
+		};
+		DAABC9C025F9D15A00076F9A /* Manager */ = {
+			isa = PBXGroup;
+			children = (
+				DAABC9C125F9D16900076F9A /* AuthManager.swift */,
+			);
+			path = Manager;
+			sourceTree = "<group>";
+		};
+		DAABC9C925F9D16F00076F9A /* Models */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Models;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -349,6 +352,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				DAABC95B25F99F8600076F9A /* SearchViewController.swift in Sources */,
+				DAABC9C225F9D16900076F9A /* AuthManager.swift in Sources */,
 				DAABC96F25F9A00D00076F9A /* WelcomeViewController.swift in Sources */,
 				DAABC97925F9A02E00076F9A /* ProfileViewController.swift in Sources */,
 				DAABC95325F99F4800076F9A /* TabBarViewController.swift in Sources */,
