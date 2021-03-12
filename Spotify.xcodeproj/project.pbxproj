@@ -31,6 +31,8 @@
 		DAABC9DD25F9D80F00076F9A /* UserProfile.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAABC9DC25F9D80F00076F9A /* UserProfile.swift */; };
 		DAABC9E225F9D82B00076F9A /* APICaller.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAABC9E125F9D82B00076F9A /* APICaller.swift */; };
 		DAABC9E725F9D84500076F9A /* HapticsManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAABC9E625F9D84500076F9A /* HapticsManager.swift */; };
+		DAABC9EC25FA146000076F9A /* Storyboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DAABC9EB25FA146000076F9A /* Storyboard.storyboard */; };
+		DAABC9F125FA1A7D00076F9A /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAABC9F025FA1A7D00076F9A /* Extensions.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -81,6 +83,8 @@
 		DAABC9DC25F9D80F00076F9A /* UserProfile.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserProfile.swift; sourceTree = "<group>"; };
 		DAABC9E125F9D82B00076F9A /* APICaller.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APICaller.swift; sourceTree = "<group>"; };
 		DAABC9E625F9D84500076F9A /* HapticsManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HapticsManager.swift; sourceTree = "<group>"; };
+		DAABC9EB25FA146000076F9A /* Storyboard.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Storyboard.storyboard; sourceTree = "<group>"; };
+		DAABC9F025FA1A7D00076F9A /* Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -138,6 +142,7 @@
 				DA2604FD25F9979A0038E87A /* View */,
 				DA2604FC25F9978F0038E87A /* Controllers */,
 				DA2604D725F9977F0038E87A /* Info.plist */,
+				DAABC9EB25FA146000076F9A /* Storyboard.storyboard */,
 			);
 			path = Spotify;
 			sourceTree = "<group>";
@@ -190,6 +195,7 @@
 				DA2604D225F9977F0038E87A /* Assets.xcassets */,
 				DA2604CB25F9977E0038E87A /* SceneDelegate.swift */,
 				DA2604C925F9977E0038E87A /* AppDelegate.swift */,
+				DAABC9F025FA1A7D00076F9A /* Extensions.swift */,
 			);
 			path = Ressources;
 			sourceTree = "<group>";
@@ -345,6 +351,7 @@
 			files = (
 				DA2604D625F9977F0038E87A /* LaunchScreen.storyboard in Resources */,
 				DA2604D325F9977F0038E87A /* Assets.xcassets in Resources */,
+				DAABC9EC25FA146000076F9A /* Storyboard.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -382,6 +389,7 @@
 				DAABC96025F99FA000076F9A /* LibraryViewController.swift in Sources */,
 				DAABC98325F9A04D00076F9A /* PlaylistViewController.swift in Sources */,
 				DA2604CC25F9977E0038E87A /* SceneDelegate.swift in Sources */,
+				DAABC9F125FA1A7D00076F9A /* Extensions.swift in Sources */,
 				DAABC97E25F9A03900076F9A /* PlayerViewController.swift in Sources */,
 				DAABC98825F9A05A00076F9A /* SearchResultViewController.swift in Sources */,
 				DAABC97425F9A01E00076F9A /* SettingsViewController.swift in Sources */,
